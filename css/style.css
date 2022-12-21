@@ -1,0 +1,61 @@
+.colors div {
+    margin: 4px;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    width: 200px;
+}
+
+
+#animal img {
+    margin: 8px;
+    padding: 8px;
+    width: 120px;
+    /* cursor: pointer; */
+}
+
+.chosen-animal {
+    border-radius: 8px;
+    border: 3px dashed dodgerblue;
+}
+
+.myBtn {
+    height: 30px;
+    background: beige;
+    border: 0px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.spacer {
+    flex-grow: 1;
+}
+
+.tasks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 80px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0;
+    border-bottom: 1px solid black;
+}
+
+.doneBtn {
+    height: 30px;
+    margin: 5px;
+    border: 1px;
+    display: flex;
+    align-items: center;
+}
+
+.rich {
+    width: 80%;
+}
